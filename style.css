@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7fae7;
+    
+    /* Background Image */
+    background-image: url("DOWN.jpeg"); /* Ensure the file is in the 'static/' folder */
+    
+    /* Ensures the image fills the entire page without blur */
+    background-size: 100% auto; /* Keeps aspect ratio */
+    
+    /* Centers the image */
+    background-position: center;
+
+    /* Prevents tiling */
+    background-repeat: no-repeat;
+
+    /* Fixes the background */
+    background-attachment: fixed;
+
+    /* Enhances image clarity */
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+}
+/* Sections */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(119, 102, 102);
+    color: white;
+}
+
+h1 {
+    color: #d0bebe;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Form and Button */
+input, button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: rgb(233, 236, 239);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5773da;
+}
+
+/* Result Text */
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f4f4f4;
+}
